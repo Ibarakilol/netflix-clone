@@ -1,0 +1,75 @@
+.loginPage {
+  position: relative;
+
+  background: url('/assets/images/bg.jpg') no-repeat center / cover;
+}
+
+.loginPage__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginPage__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.loginPage__signin {
+  position: relative;
+
+  padding: 60px 68px;
+
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.loginPage__title {
+  margin-bottom: 26px;
+
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.loginPage__form {
+  max-width: 314px;
+}
+
+.loginPage__input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 15px 20px;
+
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+
+  border: 0;
+  border-radius: 4px;
+  background-color: #333333;
+  outline: 0;
+}
+
+.loginPage__error {
+  color: #E50914;
+}
+
+.loginPage__btn {
+  margin-top: 26px;
+  padding: 16px;
+
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .loginPage__signin {
+    padding: 40px 28px;
+  }
+}
