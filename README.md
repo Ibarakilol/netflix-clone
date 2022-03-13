@@ -2,7 +2,7 @@
 
 ![Demo Image](public/assets/images/netflix-demo.png)
 
-## Demo:
+## Demo: https://netflix-clone-teal-gamma.vercel.app
 
 Tech stack used:
 - Next.js
